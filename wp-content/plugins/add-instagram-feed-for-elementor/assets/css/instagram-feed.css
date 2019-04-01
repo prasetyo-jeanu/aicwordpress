@@ -1,0 +1,61 @@
+/* For Instagram feeds */
+
+.wpcap-feed-main .wpcap-feed-item {
+	position: relative;
+	line-height: 0;
+}
+
+.wpcap-feed-main .wpcap-feed-item a {
+	display: inline-block;
+	width: 100%;
+	line-height: 0;
+	position: relative;
+}
+
+.wpcap-feed-main .wpcap-feed-item a:before {
+	content: "";
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.wpcap-feed-main .wpcap-feed-item .wpcap-feed-likes-comments {
+	width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.wpcap-feed-main .wpcap-feed-item .wpcap-feed-likes-comments span {
+	display: inline-block;
+	position: relative;
+	margin:0px 15px;
+	z-index: 5;
+	color: #fff;
+}
+
+.wpcap-feed-main .wpcap-feed-item:hover a:before,
+.wpcap-feed-main .wpcap-feed-item:hover .wpcap-feed-likes-comments {
+	opacity: 1;
+}
+
+.wpcap-feed-main .wpcap-feed-item a:before,
+.wpcap-feed-main .wpcap-feed-item:hover a:before,
+.wpcap-feed-main .wpcap-feed-item:hover .wpcap-feed-likes-comments,
+.wpcap-feed-main .wpcap-feed-item .wpcap-feed-likes-comments {
+	-webkit-transition:0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}

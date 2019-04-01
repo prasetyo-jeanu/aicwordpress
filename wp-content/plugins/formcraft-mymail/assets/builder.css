@@ -1,0 +1,31 @@
+#mc-map-input {
+	font-size: .9em;
+}
+#mc-map-output {
+	margin-top: 1em;
+	font-size: .9em;
+}
+
+.mc-padding {
+	padding: 1.2em;
+	padding-right: .2em;
+}
+
+#mapped-mailster.nos-0 .nothing-here,
+#mapped-mailster.nos- .nothing-here {
+	display: block !important;
+}
+#mapped-mailster.nos-0 .something-here,
+#mapped-mailster.nos- .something-here {
+	display: none !important;
+}
+#mapped-mailster .nothing-here {
+	display: none !important;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	width: 100%;
+}
+#mapped-mailster .something-here {
+	display: block !important;
+}
