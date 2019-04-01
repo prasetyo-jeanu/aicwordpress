@@ -1,0 +1,855 @@
+.news-grid:not(.columns-1) .portfolio-item .wrap,
+.news-grid:not(.columns-1) .portfolio-item .image {
+    width: 100%;
+}
+
+.portfolio-style-justified.news-grid .post-featured-content,
+.portfolio-style-metro.news-grid .portfolio-item.format-video .post-featured-content,
+.portfolio-style-metro.news-grid .portfolio-item.format-audio .post-featured-content,
+.portfolio-style-metro.news-grid .portfolio-item.format-quote .post-featured-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: auto !important;
+}
+
+.portfolio-style-justified.news-grid .post-featured-content .video-block,
+.portfolio-style-metro.news-grid .portfolio-item .post-featured-content .video-block {
+    position: static;
+    padding-top: 0 !important;
+}
+
+.portfolio-style-justified.news-grid .post-featured-content .audio-block,
+.portfolio-style-metro.news-grid .portfolio-item .post-featured-content .audio-block {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.portfolio-style-justified.news-grid .post-featured-content blockquote,
+.portfolio-style-metro.news-grid .portfolio-item .post-featured-content blockquote {
+    min-height: 100%;
+}
+
+.news-grid .portfolio-item .image.format-video .overlay,
+.news-grid .portfolio-item .image.format-audio .overlay,
+.news-grid .portfolio-item .image.format-gallery .overlay,
+.news-grid .portfolio-item .image.format-quote .overlay {
+    display: none;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative-horizontal,
+.news-grid .portfolio-item.double-item-style-alternative-squared {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative-horizontal .wrap,
+.news-grid .portfolio-item.double-item-style-alternative-squared .wrap {
+    width: 50%;
+    max-width: 50%;
+}
+
+.news-grid .portfolio-item.double-item-vertical.double-item-style-alternative .wrap {
+}
+
+.news-grid .portfolio-item.double-item-style-alternative-horizontal.right-item,
+.news-grid .portfolio-item.double-item-style-alternative-squared.right-item {
+    flex-direction: row;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative-horizontal .highlight-item-alternate-box,
+.news-grid .portfolio-item.double-item-style-alternative-squared .highlight-item-alternate-box {
+    width: 50%;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box {
+    position: relative;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content-inline {
+    display: inline-block;
+    text-align: left;
+    max-width: 100%;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content-inline .title {
+    white-space: normal;
+    overflow: auto;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .portolio-item-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.news-grid.portfolio:not(.columns-1) .portfolio-item .wrap > .caption {
+    min-height: 144px;
+}
+
+.news-grid.portfolio:not(.columns-1) .portfolio-item.post-hide-categories .wrap > .caption {
+    min-height: 0;
+}
+
+.news-grid.portfolio:not(.columns-1) .portfolio-item.post-hide-categories .wrap > .caption .title > div {
+    margin-bottom: 0;
+}
+
+.news-grid.portfolio:not(.columns-1) .portfolio-item.post-hide-date .wrap > .caption .title > div {
+    margin-top: 0;
+}
+
+.news-grid .portfolio-item .caption .post-date {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.news-grid .portfolio-item .caption .info {
+    margin-top: 0;
+}
+
+.news-grid .portfolio-item:not(.double-item-style-alternative) .caption .title > div {
+    margin: 6px 0 8px;
+}
+
+.news-grid .portfolio-item .grid-post-meta {
+    margin-bottom: 19px;
+}
+
+.news-grid .portfolio-item .grid-post-meta > * {
+    vertical-align: top;
+}
+
+.news-grid .portfolio-item .grid-post-meta .post-meta-likes {
+    margin-left: 0;
+}
+
+.news-grid .portfolio-item .grid-post-meta .comments-link + .post-meta-likes {
+    margin-left: 5px;
+}
+
+.news-grid .portfolio-item .grid-post-meta .comments-link {
+    padding-right: 9px;
+    margin-right: 0px;
+    border-right: 1px solid #d4dee1;
+}
+
+.news-grid .portfolio-item .grid-post-meta.without-likes .comments-link {
+    border-right: 0 !important;
+}
+
+.news-grid .portfolio-item .image .links .caption .author {
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.news-grid .portfolio-item .image .links .caption .author > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.news-grid .portfolio-item .image .links .caption .author .author-avatar {
+    font-size: 0;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.news-grid .portfolio-item .image .links .caption .author .author-avatar img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.news-grid .portfolio-item .image .links .caption .post-date {
+    margin-bottom: 13px;
+}
+
+.news-grid .portfolio-item .image .links .caption .title {
+    margin-bottom: 17px !important;
+}
+
+.news-grid.hover-gradient .portfolio-item .image .links .caption .title,
+.news-grid.hover-circular .portfolio-item .image .links .caption .title {
+    margin-bottom: 0 !important;
+}
+
+.news-grid .portfolio-item .image .links .caption .title > div {
+    margin: 0;
+}
+
+.news-grid .sep {
+    display: inline;
+}
+
+.news-grid.portfolio .portfolio-item .image .overlay .links .caption .info {
+    padding-top: 10px;
+}
+
+.news-grid.portfolio.hover-vertical-sliding .overlay .links .caption .description {
+    position: static;
+    width: auto;
+    padding: 0;
+}
+
+.news-grid.portfolio .image .overlay .links .caption .description.empty-excerpt {
+    display: block !important;
+    margin-bottom: 0 !important;
+}
+
+.news-grid.portfolio .image .overlay .links .caption .description.empty-excerpt + .info,
+.news-grid.portfolio .image .overlay .links .caption .description.empty-excerpt + .author {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.news-grid.hover-gradient .portfolio-item .image .links .caption .info,
+.news-grid.hover-circular .portfolio-item .image .links .caption .info,
+.news-grid.hover-gradient .portfolio-item .image .links .caption .post-date,
+.news-grid.hover-circular .portfolio-item .image .links .caption .post-date {
+    display: inline-block;
+}
+
+.news-grid.portfolio.hover-gradient .portfolio-item .image .overlay .links .caption .description .subtitle,
+.news-grid.portfolio.hover-circular .portfolio-item .image .overlay .links .caption .description .subtitle {
+    position: static;
+    max-width: none;
+    display: inline-block !important;
+    left: 0;
+}
+
+.news-grid .portfolio-item .image .overlay .links .caption .gradient-top-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 30px 25px 0;
+}
+
+.news-grid.portfolio.hover-gradient .portfolio-item.double-item-squared .image .overlay .links .caption,
+.news-grid.portfolio.hover-circular .portfolio-item.double-item-squared .image .overlay .links .caption {
+    padding: 0 25px 25px;
+}
+
+.news-grid.hover-gradient .portfolio-item .image .links .caption .title {
+    display: block;
+    text-align: center;
+}
+
+.news-grid.hover-circular .portfolio-item .image .links .caption .title {
+    display: inline-block;
+}
+
+.news-grid.hover-gradient .portfolio-item .image .links .caption .post-date {
+    display: block;
+    text-align: center;
+}
+
+.news-grid.hover-circular .portfolio-item .image .links .caption .author {
+    display: inline-block;
+}
+
+.news-grid.hover-gradient .portfolio-item .image .links .caption .author {
+    display: block;
+    text-align: center;
+}
+
+.news-grid.hover-circular .portfolio-item .image .links .caption .post-date {
+    display: inline-block;
+}
+
+.news-grid.portfolio .portfolio-item.double-item-style-alternative .image .links .caption .title,
+.news-grid.portfolio .portfolio-item.double-item-style-alternative .image .links .caption .info,
+.news-grid.portfolio .portfolio-item.double-item-style-alternative .image .links .caption .post-date {
+    display: none;
+}
+
+.news-grid.portfolio .portfolio-item .image .links .caption .info,
+.news-grid.portfolio .portfolio-item .image .links .caption .author,
+.news-grid.portfolio .portfolio-item .image .links .caption .grid-post-meta {
+    position: relative;
+    z-index: 3;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content .title {
+    margin-bottom: 0;
+}
+
+.news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content .info {
+    position: relative;
+    z-index: 3;
+}
+
+.news-grid .portfolio-item .post-featured-content blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.news-grid.portfolio.hover-gradient .portfolio-item.double-item-style-alternative .image .overlay .links,
+.news-grid.portfolio.hover-circular .portfolio-item.double-item-style-alternative .image .overlay .links {
+    vertical-align: top;
+}
+
+.news-grid.portfolio.hover-gradient .portfolio-item.double-item-style-alternative .image .overlay .links .caption,
+.news-grid.portfolio.hover-circular .portfolio-item.double-item-style-alternative .image .overlay .links .caption {
+    padding: 39px 20px 0;
+}
+
+.news-grid.portfolio.hover-gradient .portfolio-item.double-item-style-alternative .image .overlay .links .caption .author {
+    text-align: left;
+}
+
+.news-grid.portfolio.hover-circular.columns-4 .portfolio-item .image .overlay .links .caption .info {
+    display: inline-block;
+}
+
+.portfolio.hover-default .portfolio-item .image .overlay .links .caption,
+.portfolio.hover-zooming-blur .portfolio-item .image .overlay .links .caption {
+    padding-top: 0;
+}
+
+.news-grid.portfolio .portfolio-item .image .overlay .links .caption .info,
+.news-grid.portfolio .portfolio-item .image .overlay .links .caption .description .subtitle {
+    display: block !important;
+}
+
+.news-grid.portfolio.hover-horizontal-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links {
+    padding-top: 0;
+}
+
+.news-grid.portfolio.hover-vertical-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links {
+    padding-bottom: 0;
+}
+
+.news-grid.portfolio.columns-4 .portfolio-item:not(.double-item-squared) .image .links .caption .description {
+    display: none;
+}
+
+.news-grid.portfolio.portfolio.columns-4:not(.hover-circular) .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .info {
+    padding-top: 0;
+}
+
+.news-grid.portfolio.portfolio.columns-4 .portfolio-item:not(.double-item-squared) .post-featured-content blockquote {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.news-grid.portfolio.hover-horizontal-sliding.portfolio.columns-4 .portfolio-item:not(.double-item-squared) .overlay .links {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 15px;
+}
+
+.news-grid.portfolio.hover-vertical-sliding.portfolio.columns-4 .portfolio-item:not(.double-item-squared) .overlay .links {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.news-grid.columns-4 .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .gradient-top-box {
+    padding-top: 20px;
+}
+
+.portfolio.hover-gradient.columns-4 .portfolio-item:not(.double-item-squared) .image .overlay .links .caption {
+    padding-bottom: 20px;
+}
+
+.news-grid.portfolio.hover-gradient.columns-4 .portfolio-item .image .overlay .links .caption .info,
+.news-grid.hover-circular.columns-4 .portfolio-item .image .links .caption .author {
+    display: block !important;
+}
+
+.news-grid.portfolio.hover-gradient.columns-4 .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .info,
+.news-grid.hover-circular.columns-4 .portfolio-item:not(.double-item-squared) .image .links .caption .author {
+    padding-top: 0;
+}
+
+@media only screen and (min-width: 831px) and (max-width: 1060px),
+            screen and (min-width: 551px) and (max-width: 700px) {
+    .news-grid.portfolio:not(.columns-2) .portfolio-item:not(.double-item-squared) .image .links .caption .description {
+        display: none;
+    }
+
+    .news-grid.portfolio:not(.hover-circular):not(.columns-2) .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .info {
+        padding-top: 0;
+    }
+
+    .news-grid.portfolio:not(.columns-2) .portfolio-item:not(.double-item-squared) .post-featured-content blockquote {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1400px),
+            screen and (max-width: 1100px) {
+    .news-grid.portfolio.hover-horizontal-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links,
+    .news-grid.portfolio.hover-horizontal-sliding .portfolio-item:not(.double-item-squared) .overlay .links {
+        padding: 15px 25px;
+    }
+
+    .news-grid.portfolio.hover-vertical-sliding .portfolio-item:not(.double-item-squared) .overlay .links,
+    .news-grid.portfolio.hover-vertical-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links {
+        padding: 15px 25px;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1780px) {
+    .news-grid.portfolio.hover-horizontal-sliding.fullwidth-columns-5 .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links {
+        padding-bottom: 15px;
+    }
+
+    .news-grid.portfolio.hover-vertical-sliding.fullwidth-columns-5 .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links {
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1350px),
+            screen and (min-width: 831px) and (max-width: 1060px),
+            screen and (min-width: 551px) and (max-width: 700px),
+            screen and (max-width: 390px) {
+    .news-grid.portfolio.hover-gradient:not(.columns-2) .portfolio-item:not(.double-item-squared) .image .links .caption .description,
+    .news-grid.portfolio.hover-circular:not(.columns-2) .portfolio-item:not(.double-item-squared) .image .links .caption .description {
+        display: none;
+    }
+
+    .news-grid.portfolio.hover-gradient .portfolio-item .image .overlay .links .caption .info,
+    .news-grid.hover-circular .portfolio-item .image .links .caption .author {
+        display: block !important;
+    }
+
+    .news-grid.portfolio.hover-gradient:not(.columns-2) .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .info,
+    .news-grid.hover-circular:not(.columns-2) .portfolio-item:not(.double-item-squared) .image .links .caption .author {
+        padding-top: 0;
+    }
+
+    .news-grid .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .gradient-top-box {
+        padding-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 390px) {
+    .news-grid.portfolio .portfolio-item .image .links .caption .description {
+        display: none;
+    }
+
+    .news-grid.portfolio:not(.hover-circular) .portfolio-item .image .overlay .links .caption .info {
+        padding-top: 0;
+    }
+
+    .news-grid .portfolio-item .post-featured-content blockquote {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .news-grid.portfolio.hover-gradient .portfolio-item .image .overlay .links .caption .info,
+    .news-grid.hover-circular .portfolio-item .image .links .caption .author {
+        padding-top: 0;
+    }
+
+    .news-grid .portfolio-item .image .overlay .links .caption .gradient-top-box {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 700px) {
+    .news-grid.portfolio.columns-2 .portfolio-item:not(.double-item-squared) .image .links .caption .description {
+        display: none;
+    }
+
+    .news-grid.portfolio.columns-2.hover-circular .portfolio-item:not(.double-item-squared) .image .links .caption .author {
+        padding-top: 0;
+    }
+
+    .news-grid.portfolio.columns-2:not(.hover-circular) .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .info {
+        padding-top: 0;
+    }
+
+    .news-grid.portfolio.columns-2 .portfolio-item:not(.double-item-squared) .post-featured-content blockquote {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .news-grid .portfolio-item.double-item-style-alternative .highlight-item-alternate-box {
+        display: none;
+    }
+
+    .news-grid .portfolio-item.double-item-style-alternative-horizontal .wrap,
+    .news-grid .portfolio-item.double-item-style-alternative-squared .wrap {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+
+/********************************* News grid new version **********************************************/
+.version-new.news-grid .portfolio-item .wrap {
+    position: relative;
+}
+
+.version-new.news-grid .portfolio-item .caption {
+    text-align: left;
+}
+
+.version-new.news-grid .portfolio-item .post-author-date .author,
+.version-new.news-grid .portfolio-item .post-author-date .post-date,
+.version-new.news-grid .portfolio-item .post-author-date .post-author-date-separator {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+
+.version-new.news-grid .portfolio-item .caption .author,
+.version-new.news-grid .portfolio-item .caption .post-date {
+    font-size: 75%;
+    line-height: 25px;
+}
+
+.version-new.news-grid .portfolio-item .caption .author > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.version-new.news-grid .portfolio-item .caption .author .author-avatar {
+    font-size: 0;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.version-new.news-grid .portfolio-item .caption .author .author-avatar img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.version-new.news-grid .portfolio-item .caption .title,
+.version-new.news-grid .portfolio-item .caption .title > div {
+    text-transform: none;
+}
+
+.news-grid .portfolio-item .caption .title,
+.news-grid .portfolio-item .caption .title > div {
+    white-space: normal;
+    overflow: auto;
+}
+
+.version-new.news-grid .portfolio-item .caption .title > div {
+    margin: 0;
+}
+
+.version-new.news-grid .portfolio-item .caption .description {
+    display: block;
+    display: -webkit-box;
+    max-height: 75px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 18px;
+}
+
+.version-new.news-grid .portfolio-item .caption .description p {
+    padding: 0;
+    margin: 0;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta {
+    margin: 31px -38px 0;
+    font-size: 87.5%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .grid-post-share {
+    float: right;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .comments-link,
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .post-meta-likes {
+    float: left;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .comments-link a:before {
+    content: '\e63e';
+    font-size: inherit;
+    vertical-align: middle;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .zilla-likes:before {
+    content: '\e66b';
+    font-size: inherit;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .comments-link a,
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .zilla-likes,
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .grid-post-share .icon {
+    color: #000000;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .comments-link {
+    border-right: 0;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .grid-post-share {
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta .grid-post-share .icon:before {
+    content: '\e65c' !important;
+    font-family: 'thegem-icons';
+    line-height: inherit;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .grid-post-share .portfolio-sharing-pane {
+    position: absolute;
+    top: -2px;
+    left: 100%;
+    right: 34px;
+    height: auto;
+    text-align: right;
+    overflow: hidden;
+    transition: left 0.5s;
+    white-space: nowrap;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .grid-post-share .portfolio-sharing-pane .socials-sharing {
+    float: right;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .grid-post-share .portfolio-sharing-pane a.socials-item {
+    line-height: inherit;
+    margin: 0 3px;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .grid-post-share .portfolio-sharing-pane .socials-item-icon {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .comments-link,
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .post-meta-likes {
+    transition: opacity 0.3s;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta.post-share-active .comments-link,
+.version-new.news-grid .portfolio-item .caption .grid-post-meta.post-share-active .post-meta-likes {
+    opacity: 0;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta.post-share-active .grid-post-share .portfolio-sharing-pane {
+    left: 0;
+}
+
+.version-new.news-grid.portfolio:not(.columns-1) .portfolio-item .wrap > .caption {
+    padding: 33px 38px 6px 38px;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .info,
+.version-new.news-grid.portfolio.hover-new-default .portfolio-item .image .links .caption .info,
+.version-new.news-grid.portfolio.hover-new-vertical-sliding .portfolio-item .image .links .caption .info,
+.version-new.news-grid.portfolio.hover-new-zooming-blur .portfolio-item .image .links .caption .info {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+    background: #000000;
+    max-width: calc(100% - 20px);
+    white-space: normal;
+    text-overflow: clip;
+    overflow: auto;
+    font-size: 75%;
+    padding: 0 8px;
+}
+
+.version-new.news-grid.portfolio.hover-new-default .portfolio-item .image .links .caption .info,
+.version-new.news-grid.portfolio.hover-new-zooming-blur .portfolio-item .image .links .caption .info {
+    left: 0;
+    top: 0;
+}
+
+.version-new.news-grid.portfolio.hover-new-vertical-sliding .portfolio-item .image .links .caption .info {
+    left: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.version-new.news-grid.portfolio.hover-new-default .portfolio-item .image .links .caption .info,
+.version-new.news-grid.portfolio.hover-new-zooming-blur .portfolio-item .image .links .caption .info,
+.version-new.news-grid.portfolio.hover-new-vertical-sliding .portfolio-item .image .links .caption .info {
+    line-height: 23px;
+    background-color: rgba(51, 49, 68, 0.7);
+    padding: 0 12px;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .info .sep,
+.version-new.news-grid.portfolio .portfolio-item .image .links .caption .info .sep {
+    border-left: 0;
+    height: auto;
+    margin: 0;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .info .sep:before,
+.version-new.news-grid.portfolio .portfolio-item .image .links .caption .info .sep:before {
+    content: ', ';
+    display: inline;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .info a,
+.version-new.news-grid .portfolio-item .wrap > .caption .info .sep {
+    color: #ffffff;
+}
+
+.version-new.news-grid .portfolio-item .post-featured-content blockquote {
+    padding: 40px 40px 0;
+    justify-content: space-between;
+}
+
+.version-new.news-grid .portfolio-item .post-featured-content blockquote .quote-link:after {
+    content: '\e60c';
+    font-size: 70px;
+    line-height: 50px;
+    vertical-align: bottom;
+}
+
+.version-new.news-grid .portfolio-item .post-featured-content blockquote .quote-author {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.version-new.news-grid.portfolio.hover-new-default .portfolio-item .image .links .caption,
+.version-new.news-grid.portfolio.hover-new-zooming-blur .portfolio-item .image .links .caption {
+    text-align: center;
+}
+
+.version-new.news-grid.portfolio.hover-new-default .portfolio-item .image .links .caption .post-date {
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .title,
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .title > div {
+    text-transform: uppercase;
+}
+
+.version-new.news-grid.hover-new-default .image .links .caption .title {
+    margin-bottom: 0 !important;
+}
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .author {
+    padding-top: 0;
+    color: #ffffff;
+}
+
+.version-new.news-grid .portfolio-item .image .overlay:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	opacity: 1;
+}
+
+.version-new.news-grid.title-style-dark .portfolio-item .image .overlay:after {
+	display: none;
+}
+
+.version-new.news-grid .portfolio-item .image .links .caption .subtitle {
+    font-size: 87.5%;
+    line-height: 1.416;
+}
+
+
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .grid-post-meta {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .grid-post-meta .grid-post-share {
+    float: left;
+}
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .grid-post-meta .grid-post-meta-comments-likes {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .grid-post-meta .comments-link,
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .grid-post-meta .post-meta-likes {
+    float: left;
+}
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .grid-post-meta a.icon.share:before {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+}
+
+.version-new.news-grid.hover-new-default .portfolio-item .image .links .caption .grid-post-meta .grid-post-share .portfolio-sharing-pane {
+    position: absolute;
+    top: -2px;
+    left: 100%;
+    height: auto;
+    text-align: left;
+    overflow: hidden;
+    transition: left 0.5s;
+    white-space: nowrap;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .grid-post-share .portfolio-sharing-pane a.socials-item {
+    line-height: inherit;
+    margin: 0 3px;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .grid-post-share .portfolio-sharing-pane .socials-item-icon {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .comments-link,
+.version-new.news-grid .portfolio-item .wrap > .caption .grid-post-meta .post-meta-likes {
+    transition: opacity 0.3s;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta.post-share-active .comments-link,
+.version-new.news-grid .portfolio-item .caption .grid-post-meta.post-share-active .post-meta-likes {
+    opacity: 0;
+}
+
+.version-new.news-grid .portfolio-item .caption .grid-post-meta.post-share-active .grid-post-share .portfolio-sharing-pane {
+    left: 0;
+}

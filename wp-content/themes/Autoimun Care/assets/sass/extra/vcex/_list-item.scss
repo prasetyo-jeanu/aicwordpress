@@ -1,0 +1,31 @@
+/*------------------------------------------------------------------
+[List Item]
+-------------------------------------------------------------------*/
+.vcex-list_item {
+	margin-bottom: 5px;
+	max-width: 100%;
+
+	.vcex-icon-wrap {
+		float: left;
+		margin-right: 10px;
+		text-align: center;
+	}
+
+	&.textright {
+		.vcex-icon-wrap {
+			float: none;
+		}
+		.vcex-content {
+			display: inline;
+		}
+	}
+
+	.vcex-content {
+		overflow: hidden;
+	}
+
+}
+
+body .vcex-list_item a:hover {
+	text-decoration: none !important;
+}
