@@ -1,0 +1,80 @@
+.pvita-button, .pvita-button:hover{
+    color: #000000;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	display: inline-block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* container */
+.pvita-button-container{
+	margin-bottom:15px;
+}
+
+/* whatsapp button color*/
+.wa.pvita-button-container.hijau .pvita-button,.wa.pvita-button-container.putih .pvita-button:hover{
+	background:#25d366;
+	border:1px solid #25d366;
+	color:#fefefe;
+}
+
+.wa.pvita-button-container.hijau .pvita-button:hover,.wa.pvita-button-container.putih .pvita-button{
+	background:#fefefe;
+	color:#25d366;
+	border:1px solid #25d366;
+}
+
+/* size */
+.pvita-button-container.standard .pvita-button{
+	font-size:14px;
+	padding:15px;
+}
+.pvita-button-container.large .pvita-button{
+	font-size:16px;
+	padding:25px;
+}
+.pvita-button-container.xlarge .pvita-button{
+	font-size:20px;
+	padding:35px;
+}
+
+/* position */
+.pvita-button-container.right .pvita-button{
+	float:right;
+}
+.pvita-button-container.center{
+	text-align:center;
+}
+.pvita-button-container.block .pvita-button{
+	display:block;
+	text-align:center;
+}
+
+.pvita-button-container.bold .pvita-button{
+	font-weight:bold;
+}
+.bpb-clearfix{
+	clear:both;
+}
+
+
+@media screen and (max-width: 767px){
+	.pvita-button-container.sticky{
+		display: block;
+	    margin: 0;
+	    position: fixed;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 99999;
+	}
+	.pvita-button-container.sticky .pvita-button{
+		width: 100%;
+    	text-align: center;
+    	-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+}
